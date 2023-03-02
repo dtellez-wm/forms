@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <img class="logo" src="./assets/img/webmaps.png" alt="" />
+    <div class="container">
+      <div class="img-container">
+        <h2>Accesos</h2>
+        <h3>Inicia sesion para poder configurar tus alertas</h3>
+        <img src="assets/img/phone.png" alt="" />
+      </div>
+      <div class="form-container container-scroll">
+        <form action="">
+          <h2>Alertas</h2>
+          <!-- Dropdown menu with options for the user to select -->
+          <label for="select">Instancia <i class="fa-solid fa-user"></i> </label>
+          <select name="select" id="select">
+            <option value="" disabled selected>Selecciona una opcion</option>
+            <option value="1">Lojack</option>
+            <option value="2">Salinas</option>
+            <option value="3">Inco</option>
+            <option value="4">Sustenta</option>
+            <option value="5">Recuperamovil</option>
+          </select>
+
+          <label for="socket">Socket <i class="fa-solid fa-plug"></i> </label>
+          <select name="socket" id="socket">
+            <option value="" disabled selected>Selecciona una opcion</option>
+            <option value="1">Lojack.com</option>
+            <option value="2">Salinas.com</option>
+            <option value="3">Inco.com</option>
+            <option value="4">Sustenta.com</option>
+            <option value="5">Recuperamovil.com</option>
+          </select>
+
+          <label for="tipo">Tipo <i class="fa-solid fa-mobile"></i> </label>
+          <select name="tipo" id="tipo">
+            <option value="" disabled selected>Selecciona una opcion</option>
+            <option value="1">Movil</option>
+            <option value="2">Red</option>
+            <option value="3">Escritorio</option>
+          </select>
+          <label for="">Tiempo <i class="fa-solid fa-clock"></i> </label>
+          <input type="number" name="" id="" value="5">
+          <label for="">Volumen <i class="fa-solid fa-volume-low"></i> </label>
+          <input type="number" name="" id="" value="10">
+          <button>Enviar <i class="fa-solid fa-check"></i> </button>
+        </form>
+
+        <form action="">
+          <h2>Instancias</h2>
+          <!-- Dropdown menu with options for the user to select -->
+          <label for="select">Nombre <i class="fa-solid fa-user"></i> </label>
+          <input type="text" name="" id="" placeholder="Nombre:">
+
+          <label for="socket">Socket <i class="fa-solid fa-plug"></i> </label>
+          <select name="socket" id="socket">
+            <option value="" disabled selected>Selecciona una opcion</option>
+            <option value="1">Lojack.com</option>
+            <option value="2">Salinas.com</option>
+            <option value="3">Inco.com</option>
+            <option value="4">Sustenta.com</option>
+            <option value="5">Recuperamovil.com</option>
+          </select>
+
+          <label for="tipo">Tipo <i class="fa-solid fa-mobile"></i> </label>
+          <select name="tipo" id="tipo">
+            <option value="" disabled selected>Selecciona una opcion</option>
+            <option value="1">Movil</option>
+            <option value="2">Red</option>
+            <option value="3">Escritorio</option>
+          </select>
+          <label for="">Tiempo <i class="fa-solid fa-clock"></i> </label>
+          <input type="number" name="" id="" value="5">
+          <label for="">Volumen <i class="fa-solid fa-volume-low"></i> </label>
+          <input type="number" name="" id="" value="10">
+          <button>Enviar <i class="fa-solid fa-check"></i> </button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="footer-text">&copy 2023 WEBMAPS. Todos los derechos reservados.</p>
+          <ul class="footer-links">
+            <li class="footer-link"><a href="#">Pol&iacutetica de privacidad</a></li>
+            <li class="footer-link"><a href="#">T&eacuterminos y condiciones</a></li>
+            <li class="footer-link"><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
